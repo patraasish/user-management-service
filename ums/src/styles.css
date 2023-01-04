@@ -1,0 +1,49 @@
+@import '~bootstrap-icons/font/bootstrap-icons';
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  
+
+}
+
+.al-left {
+ 
+  margin-top: 0;
+  float: left;
+  width: 200px;
+  height: 580px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.al-right {
+  float: right;
+  width: 1050;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav {
+  margin-left: 10px;
+  display: flex;
+  margin-bottom: 2px;
+  height: 40px;
+  width: 1090px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #a14da0;
+  border-radius: 5px;
+}
+
+.container2 {
+  margin-left: 10px;
+  width: 1090px;
+  /* background-color: #1a936f;  */
+  height: fit-content;
+  height: 540px;
+  
+}
+
+a {
+  text-decoration: none;
+}

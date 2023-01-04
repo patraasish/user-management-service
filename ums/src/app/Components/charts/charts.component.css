@@ -1,0 +1,73 @@
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  .card {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .card1{
+    background-color: #ff8600;
+  }
+  .card2{
+    background-color: #2dc653;
+  }
+  .card3{
+    background-color: #0089f7;
+  }
+  .card4{
+    background-color: #ef476f;
+  }
+  .f-bar{
+    margin-top: 40px;
+    margin-left: 80px;
+    background-color: #255c99;
+    color: white;
+    width: 200px;
+    text-align: center;
+    height: 30px;
+    border-radius: 20px;
+  }
+  .s-bar{
+    margin-top: 40px;
+    margin-left: 160px;
+    background-color: #ff6594;
+    color: white;
+    width: 200px;
+    text-align: center;
+    height: 30px;
+    border-radius: 20px;
+  }
+  .t-bar{
+    margin-top: 40px;
+    margin-left:170px;
+    
+    background-color: #06d6a0;
+    color: white;
+    width: 200px;
+    text-align: center;
+    height: 30px;
+    border-radius: 20px;
+  }
+  .card-body{
+
+    
+    height: 235px;
+  }
+  .bar-card{
+    background-color: #e2afff;
+  }
+  .pie-card{
+    background-color: #72efdd;
+    border-radius: 20px;
+  }
+  .line-card{
+    background-color: #b2ff9e;
+  }

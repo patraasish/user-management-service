@@ -1,0 +1,24 @@
+.usd{
+    height: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.usd2{
+background-color: #ff006e;
+color: whitesmoke;
+ text-align: center;
+    height: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin: 5px;
+}
+h2{
+    padding-top: 8px;
+    font-weight: normal;
+    font-size: medium;
+}
+.side{
+    background-color: #06d6a0;
+    height: 480px;
+    border-radius: 20px;
+    margin: 5px;
+}

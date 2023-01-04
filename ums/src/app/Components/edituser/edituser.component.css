@@ -1,0 +1,121 @@
+body{
+    
+    width: 1000px;
+    font-family: sans-serif;
+    color: whitesmoke;
+
+}
+.first-row,.second-row,.third-row{
+    display: flex;
+    margin: 20px;
+}
+
+.main{
+   
+    width: 800px;
+    height: 480px;
+     margin: auto;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+  padding: 10px;
+}
+input{
+    height: 30px;
+    width: 300px;
+    margin-left: 10px;
+    
+}
+.t_name{
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+.title-select{
+    
+    width: 122px;
+    height: 37px;
+    margin-top: 5px;
+
+}
+.f-first_Column,.s-second_Column{
+width: 150%;
+}
+#id{
+    
+    width: 303px;
+
+}
+#email{
+    
+    width: 430px;
+    margin-left: 0px;
+
+}
+.t_name{
+    margin-left: 0px;
+}
+
+#cf,#password{
+width: 365px;
+}
+#password{
+margin-left: 0px;
+}
+a{
+    color:crimson;
+    text-decoration: none;
+}
+
+button{
+    
+        background-color: dodgerblue;
+        border: none;
+        color: white;
+      
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+    
+    margin-left: 20px;
+
+
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+      
+}
+
+.title{
+    font-size: xx-large;
+    margin-left: 15px;
+}
+.tr_name,.tc_name,.ft_name{
+    margin-left: 10px;
+    
+    padding-bottom: 10px;
+
+}
+.tt_name{
+    margin-bottom: 5px;
+}
+#role{
+      width: 307px;
+    margin-left: 10px;
+    height: 35px;
+
+}
+span{
+    color: red;
+    font-style: italic;
+}
+.cp{
+    padding-left: 20px;
+}
+.main{
+    margin-top: 10px;
+    margin-left: 120px;
+    background-color: #edae49;
+    height: 540px;
+}

@@ -1,0 +1,43 @@
+.Myform{
+    width: 250px;
+    height: 350px;
+  margin: auto;
+  margin-top: 93px;
+  border-radius: 23px;
+  padding: 10px;
+  background-color:cyan;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .container {
+    padding: 16px;
+  }
+  input[type=text], input[type=password] {
+    text-align: center;
+    width: 210px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+  }
+  button {
+    background-color:dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+   border-radius: 10px;
+   margin-left:30px ;
+   font-size:large ;
+    
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  a{
+    color: blue;
+  }
+  

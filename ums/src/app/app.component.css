@@ -1,0 +1,13 @@
+nav{
+    box-sizing: border-box;background-color:blue ;
+}
+.al-left{
+    float: left;
+    max-width: 15vw;
+    background-color: aqua;
+}
+.al-right{
+    float: right;
+    max-width: 85vw;
+    background-color:blueviolet;
+}

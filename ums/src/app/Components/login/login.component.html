@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <body>    
+        
+                
+                <div class="Myform">
+                    <form >
+                        <div class="container">
+                            <h1 style="text-align: center; font-family: sans-serif;">LOGIN</h1>
+                          <input type="text" placeholder="username or email" name="username" [(ngModel)]="this.service.loginUser.username">
+                          <br>
+                          <input type="password" placeholder="password" name="password" [(ngModel)]="this.service.loginUser.password" > <br>
+                          <button type="submit"  (click)="isRegistered()" >Submit</button>
+                        </div>
+                        <div style="margin-left: 20px;">New user ? please  <a  (click)="register()" routerLink="/register" >Register</a></div>
+                      </form>
+                    </div>
+                
+            
+          
+    </body>   
+</body>
+</html>

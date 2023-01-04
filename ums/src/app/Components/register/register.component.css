@@ -1,0 +1,67 @@
+.first-row,.second-row,.third-row{
+  display: flex;
+}
+.main{
+  margin-left: 70px;
+}
+/* ////////// */
+.Myform{
+  text-align: center;
+  width: 600px;
+  height: 400px;
+margin: auto;
+margin-top: 93px;
+
+border-radius: 50px;
+padding: 10px;
+background-color:gold;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.containerr {
+  padding: 16px;
+}
+input {
+  text-align: center;
+  width: 210px;
+  padding: 12px 20px;
+  margin: 8px ;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button {
+  background-color:dodgerblue;
+  color: white;
+  padding: 14px 0px;
+  margin: 0px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+ 
+  
+}
+button:hover {
+  opacity: 0.8;
+}
+.btn{
+ margin-right:70px;
+ margin-top: 20px;
+}
+.in{
+margin-right: 60px;
+}
+input{
+  
+  margin-right: 30px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+border-radius: 20px;
+}
+button{
+  
+  height: 38px;
+  width: 70px;
+  padding-top: 5px;
+border-radius: 10px;
+}

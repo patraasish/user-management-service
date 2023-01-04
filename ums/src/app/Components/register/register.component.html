@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+</head>
+<body>
+
+
+    <div class="Myform">
+        <div class="containerr">
+            <h1 style="text-align: center; font-family: sans-serif;">REGISTER</h1>
+        </div>
+        <form  (ngSubmit)="showDetails()">
+           <div class="main">
+<!-- first-row -->
+            <div class="first-row">
+                <div class="row">
+                <input type="text" placeholder="First Name" name="firstName" [(ngModel)]="service.user2.firstName">
+                </div>
+                
+                <div class="row">
+                    <input type="text" placeholder="Last Name" name="lastName" [(ngModel)]="service.user2.lastName">
+                </div>
+                </div> 
+
+                <!-- second-row -->
+
+                <div class="second-row">
+                    <div class="row">
+                        <input type="email" placeholder="Email" name="email"  [(ngModel)]="service.user2.email">
+                    </div>
+                    <div class="row">
+                        <input type="number" placeholder="Contact No" name="contactNo" [(ngModel)]="service.user2.contactNo">
+                    </div>
+                    </div>
+
+                    <!-- third-row -->
+
+                    <div class="third-row">
+                        <div class="row">
+                            <input type="address" placeholder="Address" name="address" [(ngModel)]="service.user2.address">
+                        </div>
+                        <div class="row">
+                            <input type="number" placeholder="Zip Code" name="zipCode" [(ngModel)]="service.user2.zipCode">
+                        </div>
+                        </div>
+                        <div class="in">
+                            <input type="password" placeholder="password" name="password" [(ngModel)]="service.user2.password" >
+                        </div>
+                        <div class="btn">
+                        <button type="reset" name="reset" style="margin-right: 10px;">Reset</button>
+                        <button type="submit" name="submit" routerLink="/login" >Submit</button>
+                        
+                        </div>
+
+           </div>
+
+              
+           
+          </form>
+        </div>
+         
+</body>
+</html>

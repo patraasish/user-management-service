@@ -1,0 +1,10 @@
+ <div *ngIf="!service.isLogin">
+<user-login></user-login>
+</div> 
+<div *ngIf="!service.isRegister" >
+  <user-home></user-home>
+</div>   
+ <div *ngIf="service.isRegister">
+ <router-outlet></router-outlet>
+</div> 
+

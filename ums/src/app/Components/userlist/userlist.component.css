@@ -1,0 +1,45 @@
+.main{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    color: black;
+  }
+  table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+  button{
+      
+    background-color: green; /* Green */
+    border: none;
+    color: white;
+  
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  
+  border-radius: 5px;
+  
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  
+  }
+  .delete{
+    background-color: red;
+  }
+  .edit{
+    background-color: dodgerblue;
+  }

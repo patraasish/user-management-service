@@ -1,0 +1,24 @@
+ <div *ngIf="service.isLogin" class="d-flex container1"> 
+  <div class="al-left">
+    <div
+      class="title-name"
+      style="background-color: white; padding-left: 5px; padding-bottom: 5px">
+      <h1 class="h4 text-center">UMS</h1>
+    </div>
+    <div>    
+    <div class="usd2"><h2>Welcome User!</h2></div>
+    
+    <div class="side">
+      <user-sidebar></user-sidebar>
+    </div>
+    </div>
+  </div>
+  <div class="al-right">
+    <div><user-navbar></user-navbar></div>
+    <div class="container2">
+      <router-outlet></router-outlet>
+     
+      
+    </div>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<div class="main">
+<h1>Users</h1>
+<button type="submit"  (click)="router.navigate(['/adduser']);" >Add User</button>
+
+<div > 
+    <table>
+  <tr>
+  <th>Name</th>
+  <th>Email</th>
+  <th>Role</th>
+  <th style="
+  width: 130px;
+"></th>
+  </tr>
+    <tr  *ngFor="let user of this.userService.user ;let i =index"  >
+        <td>{{user.firstname}}  {{user.lastname}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.role}}</td>
+        <td style="
+        width: 170px;
+    "><button class="edit"  (click)="router.navigate(['edituser',i]);"  >Edit</button>
+          <button class="delete" (click)="deleteUser(i)" >Delete</button></td>
+        </tr>
+  
+  
+
+       
+</table>
+</div>
+</div>
+</body>
+</html>
+
+

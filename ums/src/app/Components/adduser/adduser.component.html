@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add User</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="title">Add User</div>
+      <form #addUserForm="ngForm" (ngSubmit)="valid(addUserForm.value)">
+        <div class="first-row">
+          <div class="first_Column">
+            <div class="tt_name"><label for=""> Title</label></div>
+            <div>
+              <select name="title" class="title-select" ngModel>
+                <option value="Mr.">Mr.</option>
+                <option value="Miss">Miss</option>
+                <option value="Ms">Ms.</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- second_Column -->
+          <div class="second_Column">
+            <div class="ft_name"><label for=""> First Name</label></div>
+
+            <div>
+              <input
+                type="text"
+                #fname="ngModel"
+                name="firstname"
+                required
+                ngModel
+              />
+              &nbsp;&nbsp;
+              <span *ngIf="fname.invalid && fname.touched">
+                first Name is required</span
+              >
+            </div>
+          </div>
+
+          <!-- third_Column -->
+          <div class="second_Column">
+            <div class="ft_name"><label for=""> Last Name</label></div>
+            <div>
+              <input
+                type="text"
+                #lname="ngModel"
+                name="lastname"
+                required
+                ngModel
+              />
+              &nbsp;&nbsp;
+              <span *ngIf="lname.invalid && lname.touched">
+                last Name is required</span
+              >
+            </div>
+          </div>
+        </div>
+        <!-- first-row-end -->
+
+        <!-- second-row-start -->
+        <div class="second-row">
+          <div class="f-first_Column">
+            <div class="t_name"><label for="email"> Email</label></div>
+            <div>
+              <input
+                type="email"
+                #email="ngModel"
+                id="email"
+                name="email"
+                required
+                email
+                ngModel
+              />
+              <span *ngIf="email.errors && email.touched"
+                >Email must be valid email address</span
+              >
+            </div>
+          </div>
+
+          <div class="s-second_Column">
+            <div class="tr_name"><label for="role"> Role</label></div>
+            <div>
+              <select id="role" name="role" required ngModel>
+                <option value="Admin">Admin</option>
+                <option value="User">User</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!-- second-row-end -->
+
+        <div class="third-row">
+          <div class="t-first_Column">
+            <div class="t_name"><label for="password">Password</label></div>
+            <div>
+              <input
+                type="password"
+                minlength="6"
+                id="password"
+                #password="ngModel"
+                name="password"
+                required
+                ngModel
+              />
+              <span *ngIf="password.errors && password.touched">
+                password must be at least 6 characters</span
+              >
+            </div>
+          </div>
+
+          <div class="t-second_Column">
+            <div class="tc_name"><label for="cf"> Confirm Password</label></div>
+            <div>
+              <input
+                type="password"
+                id="cf"
+                #c_password="ngModel"
+                name="confirm_password"
+                required
+                ngModel
+              />
+              &nbsp;&nbsp;<span
+                *ngIf="c_password.value != password.value && c_password.touched"
+              >
+                password must match</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <button
+            type="submit"
+            [disabled]="
+              addUserForm.invalid || c_password.value != password.value
+            "
+            [class.disablebtn]="
+              addUserForm.invalid || c_password.value != password.value
+            "
+          >
+            Save
+          </button>
+          <a routerLink="/userlist">Cancel</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
