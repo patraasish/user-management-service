@@ -5,10 +5,12 @@ In this project admin can add ,update,delete and display users.
 
 # REGISTER PAGE
 
-<img width="922" alt="REGISTER" src="https://user-images.githubusercontent.com/88066543/210561351-6b54b885-538e-44e3-b3c1-ae6000e9ec38.png">
+<img width="757" alt="REGISTER" src="https://user-images.githubusercontent.com/88066543/210564240-a4353e83-c415-4a71-8c71-32cdc0eba543.png">
+
 
 # LOG IN PAGE
-<img width="908" alt="LOGIN" src="https://user-images.githubusercontent.com/88066543/210561556-40aadded-9804-48be-b6e4-e5627a100656.png">
+<img width="641" alt="LOGIN" src="https://user-images.githubusercontent.com/88066543/210564273-b249db8c-a464-4152-b876-d57b8c80d016.png">
+
 
 # ADD USER PAGE
 
