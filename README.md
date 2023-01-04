@@ -25,4 +25,4 @@ In this project admin can add ,update,delete and display users.
 
 # DASHBOARD
 
-<img width="953" alt="DASHBOARD" src="https://user-images.githubusercontent.com/88066543/210561947-a56dc656-4ae4-42ed-b914-6635837b1d45.png">
+<img width="950" alt="DASHBOARD" src="https://user-images.githubusercontent.com/88066543/210563650-ad636aac-e6d5-4759-811d-9367b8afc9f2.png">
